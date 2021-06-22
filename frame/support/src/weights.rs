@@ -162,8 +162,8 @@ pub mod constants {
 		/// By default, Substrate uses RocksDB, so this will be the weight used throughout
 		/// the runtime.
 		pub const RocksDbWeight: RuntimeDbWeight = RuntimeDbWeight {
-			read: 25 * WEIGHT_PER_MICROS,   // ~25 µs @ 200,000 items
-			write: 100 * WEIGHT_PER_MICROS, // ~100 µs @ 200,000 items
+			read: 20 * WEIGHT_PER_MICROS,   // ~25 µs @ 200,000 items
+			write: 85 * WEIGHT_PER_MICROS, // ~100 µs @ 200,000 items
 		};
 		/// ParityDB can be enabled with a feature flag, but is still experimental. These weights
 		/// are available for brave runtime engineers who may want to try this out as default.
